@@ -1,0 +1,48 @@
+@import "normalize.less";
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+html,body {
+	height: 100%;
+}
+
+div.main {
+	width: 420px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+	border-left: 1px solid rgb(204,204,204);
+	border-right: 1px solid rgb(204,204,204);
+	background-color: rgb(242,242,242);
+	box-shadow: 0 1px 10px rgb(153,153,153);
+}
+div.bullet {
+	width:20px;
+	height:20px;
+	margin: 20px 0px;
+	text-indent: -9999px;
+	background-color: rgb(255,102,0);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px rgb(153,153,153),
+				0 0 0 6px rgb(204,204,204);
+
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	-ms-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+
+
+
+
+
+
+@import "media-queries.less";
+@import "helpers.less";
+@import "print.less";
